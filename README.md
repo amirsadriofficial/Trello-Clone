@@ -3,15 +3,7 @@ This is a Trello clone, a task management tool, that has main Trello functionali
 
 See it live [from here](https://).
 
-## Technologies
-* HTML
-* CSS
-* React
-* Git, Github
-* React beautiful dnd
-
 ## Features
-List of features 
 * Drag and drop lists 
 * Drag and drop cards inside a list and to different lists. 
 * Create and delete multiple lists
@@ -19,3 +11,10 @@ List of features
 * Create and delete multiple cards
 * Change cards description
 * Count the number of cards in a list
+
+## Technologies
+* HTML
+* CSS
+* React
+* Javascript
+* React beautiful dnd
