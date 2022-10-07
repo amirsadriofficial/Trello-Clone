@@ -1,0 +1,42 @@
+.card_container {
+  position: relative;
+  margin: 3px 0;
+}
+/*****created cards******/
+.textarea {
+  /*make textarea fit all multiline text*/
+  display: block;
+  resize: none;
+  line-height: 20px;
+  cursor: pointer;
+  /*styling css*/
+  background-color: white;
+  border-radius: 4px;
+  padding: 4px;
+  width:100vw;
+  max-width: 17.5rem !important;
+  box-shadow: 0px 0.5px 1px grey;
+}
+.textarea:hover {
+  background-color: #f7f7f7;
+}
+/****styling for icons***/
+.fa-pen {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  color: transparent;
+  cursor: pointer;
+}
+.textarea:hover ~ .fa-pen,
+.fa-pen:hover {
+  color: #6b778c;
+}
+.card_container button, .saveNewCard {
+  margin: 5px 5px 0 0;
+  background-color: var(--blue);
+  color: white;
+}
+.deleteCard {
+  background-color: tomato !important;
+}

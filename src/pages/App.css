@@ -1,0 +1,92 @@
+/*****Colors variable*****/
+:root {
+  --blue: #0079bf;
+  --dark-blue: #016199;
+  --light-gray: #ebecf0;
+}
+/*****Global reset*****/
+*,
+body,
+div {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+/*highlight selected text with blue*/
+::selection {
+  background-color: var(--blue);
+  color: white;
+}
+/*****Remove outline*****/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,
+span:focus {
+  outline: none;
+}
+/****Main container background****/
+body {
+  background: url("../assets/images/background-1.jpg");
+  /****make the background image fixed when scrolled and zoom in and out****/
+  background-size: cover;
+  background-attachment: fixed;
+}
+/****Basic button setup*****/
+button {
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  opacity: 0.7;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+/****List container*****/
+.listContainer {
+  display: flex;
+  align-items: flex-start;
+  margin: 5px;
+  margin-top: 75px;
+}
+/****Add new list button*****/
+.addCardlistBtn {
+  position: relative;
+  text-align: left;
+  top: 0;
+  min-width: 18.5rem;
+  background-color: rgb(228, 224, 224);
+}
+/***Social icons***/
+.socialsContianer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  color: white;
+  right: 0;
+  margin-top:2px;
+}
+.socialIcons {
+  font-size: 22px;
+  margin: 0 0.5rem;
+}
+/***responsive for mobile and tablets**/
+@media screen and (max-width: 768px) {
+  /***Makes the height dont exceed when width increases****/
+  html,
+  body {
+    overflow-y: scroll;
+  }
+  body {
+    background-position: center;
+    background-image: url("../assets/images/background-2.jpg");
+  }
+  .socialIcons {
+    font-size: 22px;
+    margin: 0 0.1rem;
+    margin-top:2px;
+  }
+}

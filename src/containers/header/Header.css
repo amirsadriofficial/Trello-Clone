@@ -1,0 +1,21 @@
+/*****Header*****/
+.header {
+    padding: 24px;
+    max-height: 30px;
+    background: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.header i {
+    color: white;
+    padding-right: 8px;
+    overflow: hidden;
+}
+h1 {
+    font-size: 2rem;
+    color: white;
+}
