@@ -20,11 +20,10 @@ See it live [from here](https://).
 * React beautiful dnd
 
 
-## How to Install and Run the Project
+## Setup
 After cloning the repository, enter the main directory of the project and run the following command to install the required packages:
-### `npm install`
+## `npm install`
 After installing the packages, run the following command to run the program:
-### `npm start`
+## `npm start`
 After the project is executed, open the following address in your browser and view the website:
-### `http://localhost:3000`
-http://localhost:3000
+## `http://localhost:3000`
