@@ -27,10 +27,6 @@ const cards = [
     id: "card-4",
     title: "Prepare pancakes for brunch ",
   },
-  {
-    id: "card-5",
-    title: "Visit Tokyo Sky Tree after shopping 🗼",
-  },
 ];
 
 const data = {
@@ -50,7 +46,7 @@ const data = {
         },
         {
           id: "card-7",
-          title: "Finish amazon clone",
+          title: "Enjoy amazon shopping",
         },
       ],
     },
@@ -61,7 +57,7 @@ const data = {
         {
           id: "card-8",
           title:
-            "Reply to clients email. Don't foget to call Tanakasan who wants to upgrade her plan to premium 📞",
+            "Trello is a task management tool",
         },
         {
           id: "card-9",
